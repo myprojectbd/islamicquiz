@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/1337711fbb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="Main" class="main">
+    <div class="img">
+        <img src="https://bhutanio.com/wp-content/uploads/2021/01/undraw_Questions_re_1fy7.png" alt="">
+    </div>
+
+    <div class="box">
+        <h3>ইসলামিক কুইজ </h3>
+        <p>ইসলামিক কুইজ প্রতিযোগিতা ২০২২ </p>
+       <br>
+        <h3>কুইজ খেলুন পুরস্কার জিতুন </h3>
+        <p>বাসায় বসে অনলাইন কুইজ প্রতিযোগিতায় অংশ নিয়ে পুরস্কার জিতুন</p>
+    </div>
+
+    <div class="MyBtn">
+        <button id="nextBtn">Continue</button>
+    </div>
+ </div>
+
+
+ <div id="rulesBox" class="rulesBox">
+    <div class="rulestitle">ইসলামিক কুইজ এর বিস্তারিত</div>
+    <div class="ruleslist">
+        <ol>
+            <li>কুইজ শুরু করার পর একজন প্রতিযোগী সর্বোচ্চ <span style="color: red;">15 সেকেন্ড</span> সময় পাবেন প্রশ্নের উত্তর দেওয়ার জন্য।</li>
+            <li>Islamic Quiz এ অংশগ্রহণ করার জন্য ‘শুরু করুন’ বাটনটি ক্লিক করে আমাদের এই শর্তাবলীসমুহতে আপনার সম্মতি প্রদান করেছেন।</li>
+            <li>প্রতিযোগী কোন প্রশ্ন এড়িয়ে পরবর্তী প্রশ্নের উত্তর দিতে পারবেন না।</li>
+            <li>কুইজ কমিটি এই শর্তাবলী পরিবর্তন/পরিবর্ধন/সংশোধন করার কিংবা কোন প্রকার পূর্ব ঘোষণা ছাড়াই পুরো অফারটি বাতিল করার অধিকার সংরক্ষণ করে।</li>
+            <li>এই সময়ের মধ্যে তিনি ততক্ষণ খেলতে পারবেন যতক্ষণ প্রশ্নের সঠিক উত্তর দিতে পারবেন।</li>
+         </ol>
+    </div>
+
+    <div class="Start">
+        <button id="startQuiz">Start Quiz</button>
+       
+    </div>
+
+    <div class="Exit">
+        <button id="backBtn">Exit</button>
+    </div> 
+ </div>
+
+ <div id="Question" class="Question">
+
+    <header class="questionHeader">
+        <div class="title">Start Exam</div>
+        <div class="timecount">
+             <div class="timeLeft">TimeLeft</div>
+             <div class="second">Start</div>
+        </div>
+
+        <div class="time-lines"></div>
+    </header>
+
+    <div class="section">
+      <div class="text">
+        <!-- <span> 1. মহানবী (সাঃ)মক্কায় জীবনের কত বছর অতিবাহিত করেছেন?</span> -->
+      </div>
+
+      <div class="myOption">
+        
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="tottalQues">
+            <p> 1 Of 5 Question</p>
+        </div>
+
+        <div class="Btn">
+            <button id="nextQues">Next Ques</button>
+        </div>
+       
+    </div>
+
+ </div>
+     
+    <div class="resultbox">
+        <div class="resultimage">
+            <img src="winner.svg" alt="">
+        </div>
+
+        <div class="completeText">You have finished The Exam</div>
+        <div class="scoreText"><span>Carry On You Got <p>0</p> Out Of <p>5</p></span></div>
+        
+        <div class="buttons">
+            <button class="replay">Replay</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div> 
+
+
+
+    <script src="question.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
